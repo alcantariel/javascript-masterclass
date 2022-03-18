@@ -1,4 +1,4 @@
-// Boxing/Wrapper - Prototype
+// boxing/wrapper - prototype
 
 console.log((10).toFixed(2)); // 10.00
 console.log("JavaScript".replace("a", "4")); // J4vaScript

@@ -1,4 +1,4 @@
-// Tipos
+// tipos de dados
 
 console.log(typeof 10); // number
 console.log(typeof "JavaScript"); // string
