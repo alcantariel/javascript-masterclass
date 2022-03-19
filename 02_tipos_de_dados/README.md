@@ -21,11 +21,11 @@ O tipo Number é primitivo, imutável e é representado internamente pelo padrã
 
 Suporta os sistemas de numeração `decimal, hexadecimal, binário e octal`.
 
-- decimal: o sistema de numeração `decimal`, de `base 10`, deve iniciar com um número de 1 a 9, seguido por números de 0 a 9 com ou sem ponto, indicando se é inteiro ou decimal.
+- decimal: o sistema de numeração `decimal`, de `base 10`, deve iniciar com um número de 1 a 9, seguido por números de 0 a 9 com ou sem ponto, indicando se é inteiro ou decimal;
 
-- hexadecimal: o sistema de numeração `hexadecimal`, de `base 16`, deve iniciar com 0x ou 0X, seguido por números de 0 a 9 e letras de A a F.
+- hexadecimal: o sistema de numeração `hexadecimal`, de `base 16`, deve iniciar com 0x ou 0X, seguido por números de 0 a 9 e letras de A a F;
 
-- binário: o sistema de numeração `binário`, de `base 2`, deve iniciar com 0b ou 0B, seguido por números de 0 a 1.
+- binário: o sistema de numeração `binário`, de `base 2`, deve iniciar com 0b ou 0B, seguido por números de 0 a 1;
 
 - octal: o sistema de numeração `octal`, de `base 8`, deve iniciar c om 0, 0o ou 0O, seguido por números de 0 a 7.
 
@@ -70,3 +70,19 @@ Suporta os sistemas de numeração `decimal, hexadecimal, binário e octal`.
 <br>
 
 Os métodos `toExponential, toFixed e toPrecision` podem ser utilizados para `mudar a forma que o número é representado`.
+
+<br>
+
+### Operadores Numéricos
+
+- operadores aritméticos: `+, -, *, / e %`;
+
+- operadores de atribuição: `+=, -=, *=, /= e %=`;
+
+- operadores de incremento e decremento: `++ e --`;
+
+- operadores binários: `|, &, ^, ~, <<, >> e >>>`.
+
+<br>
+
+Obs: cuidado para nao confundir os operadores binários | e & com os operadores booleanos || e &&.
