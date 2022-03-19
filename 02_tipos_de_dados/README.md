@@ -86,3 +86,7 @@ Os métodos `toExponential, toFixed e toPrecision` podem ser utilizados para `mu
 <br>
 
 Obs: cuidado para nao confundir os operadores binários | e & com os operadores booleanos || e &&.
+
+<br>
+
+### Conversão Numérica

@@ -1,4 +1,4 @@
-// number operators - operadores de incremento e decremento
+// operadores numéricos - operadores de incremento e decremento
 
 let result = 10;
 console.log(result++); // 10 - pós incremento

@@ -1,4 +1,4 @@
-// number operators - operadores de atribuição
+// operadores numéricos - operadores de atribuição
 
 let resultSum = 10;
 let resultSub = 10;

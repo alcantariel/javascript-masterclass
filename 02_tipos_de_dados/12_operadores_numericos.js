@@ -1,4 +1,4 @@
-// number operators - operadores binários
+// operadores numéricos - operadores binários
 
 function to32Bits(n) {
   return n.toString().padStart(32, 0);
@@ -40,7 +40,7 @@ console.log(to32Bits(2)); //   00000000000000000000000000000010
 //                           = 00000000000000000000000000000111
 console.log(0b111); // 7
 
-// not operator: iverte todos os bits, inclusive sinal (0 vira 1, 1 vira 0)
+// not operator: inverte todos os bits, inclusive sinal (0 vira 1, 1 vira 0)
 
 console.log(~2); // -3
 console.log((-3 >>> 0).toString(2)); // 11111111111111111111111111111101

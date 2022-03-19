@@ -1,4 +1,4 @@
-// number operators - operadores aritméticos
+// operadores numéricos - operadores aritméticos
 
 /**
  * soma
