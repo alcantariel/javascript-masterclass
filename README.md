@@ -6,5 +6,9 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
 
 ## Sumário
 
-- [Variáveis](https://github.com/alcantariel/javascript-masterclass/tree/master/01_variaveis#readme)
-- [Tipos de Dados](https://github.com/alcantariel/javascript-masterclass/tree/master/02_tipos_de_dados#readme)
+- [Variáveis](./01_variaveis/README.md#variáveis)
+- [Tipos de Dados](./02_tipos_de_dados/README.md#tipos-de-dados)
+  - [Number](./02_tipos_de_dados/README.md#number)
+    - [Operadores Numéricos](./02_tipos_de_dados/README.md#operadores-numéricos)
+    - [Conversão Numérica](./02_tipos_de_dados/README.md#conversão-numérica)
+    - [IEE 754](./02_tipos_de_dados/README.md#ieee-754)

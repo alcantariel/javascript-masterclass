@@ -100,3 +100,30 @@ O método `toString` de um número, permite `convertê-lo para qualquer sistema 
 O método `parseInt`, permite converter uma string para um número. Para isso basta indicar o `número e a sua base`, que caso não seja informada, por padrão é 10.
 
 O método `parseFloat` é um pouco mais específico e converte `apenas números no sistema de numeração decimal`.
+
+<br>
+
+### IEEE 754
+
+O IEEE 754 é um `padrão de representação numérica` criado em 1985 e adotado por diversas linguagens de programação como o JavaScript, Ruby, Python e Java.
+
+Forma que o número é armazenado:
+![](./ieee754_forma_armazenamento_numeros.png)
+
+- 1 bit para o sinal;
+
+- 11 bits para o expoente, indica a ordem de grandeza do número. `toExponential`;
+
+- 52 bits para a fração ou mantissa.
+
+<br>
+
+`Obs: cuidado com alguns tipos de operações envolvendo números`
+
+<br>
+
+Ao realizar operações com números decimais, `podem existir resíduos decorrentes de arredondamento`.
+
+`Infinity`, que pode ser positivo ou negativo, `é retornado quando uma operação ultrapassa os limites do tipo number`.
+
+`NaN ou Not a Number`, é retornado quando realizamos uma operação numérica `onde não é possível determinar o resultado`.
