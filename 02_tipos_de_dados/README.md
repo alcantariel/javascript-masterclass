@@ -127,3 +127,63 @@ Ao realizar operações com números decimais, `podem existir resíduos decorren
 `Infinity`, que pode ser positivo ou negativo, `é retornado quando uma operação ultrapassa os limites do tipo number`.
 
 `NaN ou Not a Number`, é retornado quando realizamos uma operação numérica `onde não é possível determinar o resultado`.
+
+<br>
+
+### Math API
+
+Math é um objeto global que contém `constantes matemáticas e métodos para realização de operações envolvendo números`.
+
+<br>
+
+Constantes:
+
+- E: E;
+- LN2: logaritmo natural de 2;
+- LN10: logaritmo natural de 10;
+- LOG2E: logaritmo de E na base 2;
+- LOG10E: logaritmo de E na base 10;
+- PI: PI;
+- SQRT1_2: raiz quadrada de 1/2;
+- SQRT2: raiz quadrada de 2.
+
+<br>
+
+Operações de arredondamento/sinal:
+
+- abs: converte o sinal do número para positivo;
+- ceil: arredonda o número para cima;
+- floor: arredonda o número para baixo;
+- round: arredonda o número para cima se a parte decimal for de 5 a 9, e para baixo se for de 0 a 4;
+- sign: retorna 1 se o número for positivo e -1 se for negativo;
+- trunc: elimina a parte decimal do número, tornando-o um inteiro.
+
+<br>
+
+Operações aritméticas/trigonométricas:
+
+- cbrt: retorna raiz cúbica do número;
+- cos: retorna coseno de um ângulo;
+- exp: retorna E elevado a um expoente;
+- hypot: retorna a raiz quadrada dos quadrados dos números;
+- log: retorna o logaritmo do número em base natural;
+- pow: retorna o número elevado a um determinado expoente;
+- sin: retorna o seno de um ângulo;
+- sqrt: retorna a raíz quadrada do número;
+- tan: retorna a tangente de um ângulo.
+
+<br>
+
+|         | 0   | 30     | 45     | 60     | 90  |
+| ------- | --- | ------ | ------ | ------ | --- |
+| **SEN** | 0   | 0,5000 | 0,7071 | 0,8660 | 1   |
+| **COS** | 1   | 0,8660 | 0,7071 | 0,5000 | 0   |
+| **TAN** | 0   | 0,5774 | 1      | 1,7321 | -   |
+
+<br>
+
+Operações de min, max e random:
+
+- min: retorna o menor número passado por parâmetro;
+- max: retorna o maior número passado por parâmetro;
+- random: retorna um número randômico entre 0 e 1, não incluindo o 1.
