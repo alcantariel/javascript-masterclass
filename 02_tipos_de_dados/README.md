@@ -216,6 +216,6 @@ Existem também `caracteres de controle` que podem ser utilizados para quebrar l
 | \t                    | Horizontal Tabulator |
 | \v                    | Vertical Tabulator   |
 
-É possível escrever caracteres utilizando se `code point` no padrão Unicode.
+É possível escrever caracteres utilizando se `code point` no padrão [Unicode](https://home.unicode.org/).
 
 Unicode é uma tabela com milhões de caracteres, com o propósito de unificar diferentes sistemas de codificação.
