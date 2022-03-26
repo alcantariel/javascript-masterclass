@@ -187,3 +187,35 @@ Operações de min, max e random:
 - min: retorna o menor número passado por parâmetro;
 - max: retorna o maior número passado por parâmetro;
 - random: retorna um número randômico entre 0 e 1, não incluindo o 1.
+
+<br>
+
+## String
+
+O tipo String é primitivo, imutável e é representado internamente pelo padrão `Unicode`, codificado em `UTF-16`.
+
+Existem 3 formas de declarar uma String de forma literal: `aspas simples, aspas duplas ou acento grave`.
+
+Existe diferença entre essas formas?
+
+- Entre aspas simples e duplas, apenas a forma de declará-las. Mas é importante definir um padrão para o projeto.
+- A com acento grave é utilizada em um recurso chamado `template literal`, que facilita a "criação" de strings interpolando variáveis.
+
+Também é possível declarar uma String por meio da sua `função construtora`. Porém, ela é mais lenta e `pode prejudicar a performance`.
+
+Alguns tipos de caracteres não são permitidos e `precisam ser escapados`.
+
+Existem também `caracteres de controle` que podem ser utilizados para quebrar linhas, aumentar a indentação, entre outras coisas.
+
+| Caractere de Controle | Descrição            |
+| --------------------- | -------------------- |
+| \b                    | Backspace            |
+| \f                    | Form Feed            |
+| \n                    | New Line             |
+| \r                    | Carriege Return      |
+| \t                    | Horizontal Tabulator |
+| \v                    | Vertical Tabulator   |
+
+É possível escrever caracteres utilizando se `code point` no padrão Unicode.
+
+Unicode é uma tabela com milhões de caracteres, com o propósito de unificar diferentes sistemas de codificação.
