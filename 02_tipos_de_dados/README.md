@@ -27,7 +27,7 @@ Suporta os sistemas de numeração `decimal, hexadecimal, binário e octal`.
 
 - binário: o sistema de numeração `binário`, de `base 2`, deve iniciar com 0b ou 0B, seguido por números de 0 a 1;
 
-- octal: o sistema de numeração `octal`, de `base 8`, deve iniciar c om 0, 0o ou 0O, seguido por números de 0 a 7.
+- octal: o sistema de numeração `octal`, de `base 8`, deve iniciar com 0, 0o ou 0O, seguido por números de 0 a 7.
 
 <br>
 
@@ -85,7 +85,7 @@ Os métodos `toExponential, toFixed e toPrecision` podem ser utilizados para `mu
 
 <br>
 
-Obs: cuidado para nao confundir os operadores binários | e & com os operadores booleanos || e &&.
+Obs: cuidado para não confundir os operadores binários | e & com os operadores booleanos || e &&.
 
 <br>
 
@@ -93,7 +93,7 @@ Obs: cuidado para nao confundir os operadores binários | e & com os operadores 
 
 A forma mais simples de converter um número é por meio da `invocação da função construtora Number`.
 
-Um outro jeito de realizar conversões é por meio dos `operadores numércos`. Mas cuidado, nem todos os operadores numéricos realizam a conversão.
+Um outro jeito de realizar conversões é por meio dos `operadores numéricos`. Mas cuidado, nem todos os operadores numéricos realizam a conversão.
 
 O método `toString` de um número, permite `convertê-lo para qualquer sistema de numeração`, bastando indicar qual é a base desejada.
 
@@ -227,3 +227,31 @@ Unicode é uma tabela com milhões de caracteres, com o propósito de unificar d
 Um template literal é uma forma de declarar uma String que `permite a interpolação de express˜ões`.
 
 Além da interpolação de expressões, também é possível declarar uma String multi linha, `sem a necessidade de caracteres especiais`.
+
+<br>
+
+### String API
+
+- length: retorna o tamanho da String;
+- indexOf: retorna a primeira posição encontrada do caractere passado por parâmetro;
+- lastIndexOf: retorna a última posição encontrada do caractere passado por parâmetro;
+- toUpperCase: retorna uma nova String convertendo as letras para maíusculas;
+- toLowerCase: retorna uma nova String convertendo as letras para minúsculas;
+
+- chartAt: retorna o caractere na posição passada por parâmetro;
+- charCodeAt: retorna o código com base na posição passada por parâmetro;
+- fromCharCode: retorna um caractere com base no código passado por parâmetro;
+
+- includes: retorna verdadeiro se a String contém a String passada por parâmetro;
+- startsWith: retorna verdadeiro se a String inicia com a String passada por parâmetro;
+- endsWith: retorna verdadeiro se a String termina com a String passada por parâmetro;
+
+- localeCompare: retorna -1 se a String passada por parâmetro for maior, 0 se for igual e 1 se for menor;
+
+- match: retorna partes da String com base na RegExp passada por parâmetro;
+- search: retorna a primeira posição encontrada com base na RegExp passada por parâmetro;
+- replace: retorna uma nova String resultante da substituição da String ou RegExp passada no primeiro parâmetro, pelo segundo parâmetro;
+
+- slice:
+- split:
+- substring:
