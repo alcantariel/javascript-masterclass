@@ -235,7 +235,7 @@ Além da interpolação de expressões, também é possível declarar uma String
 - length: retorna o tamanho da String;
 - indexOf: retorna a primeira posição encontrada do caractere passado por parâmetro;
 - lastIndexOf: retorna a última posição encontrada do caractere passado por parâmetro;
-- toUpperCase: retorna uma nova String convertendo as letras para maíusculas;
+- toUpperCase: retorna uma nova String convertendo as letras para maiúsculas;
 - toLowerCase: retorna uma nova String convertendo as letras para minúsculas;
 
 - chartAt: retorna o caractere na posição passada por parâmetro;
@@ -252,6 +252,14 @@ Além da interpolação de expressões, também é possível declarar uma String
 - search: retorna a primeira posição encontrada com base na RegExp passada por parâmetro;
 - replace: retorna uma nova String resultante da substituição da String ou RegExp passada no primeiro parâmetro, pelo segundo parâmetro;
 
-- slice:
-- split:
-- substring:
+- slice: retorna uma parte da String que está invocando a função, iniciando na posição passada no primeiro parâmetro, até a posição final passada no segundo parâmetro. Ou da posição passada no primeiro parâmetro até o fim caso o segundo parâmetro seja omitido;
+- split: retorna um array contendo o resultado da divisão da String original de acordo com o critério passado;
+- substring: similar ao slice, não aceita valores negativos como parâmetro e permite a inversão dos parâmetros;
+
+- concat: retorna uma nova String resultante da concatenação da String que está invocando a função com a que está sendo passada por parâmetro;
+- padStart: completa a String com caracteres no início;
+- padEnd: completa a String com caracteres no fim;
+- repeat: repete um caractere;
+- trim: elimina espaços em branco no início e no fim;
+- trimStart: elimina espaços em branco no início;
+- trimEnd: elimina espaços em branco no fim.
