@@ -275,3 +275,15 @@ A coerção de tipo acontece quando um tipo de dado é utilizado em um contexto 
 <br>
 
 ### Operadores Booleanos
+
+- Operadores de comparação: `==, ===, !=, !==, <, >, <= e >=`;
+
+- Operadores lógicos: `|| e &&`;
+
+- Operador ternário: `expressao ? true : false`.
+
+`Obs: Cuidado com os operaadores de comparação == e !=`.
+
+Prefira sempre a utilização dos operadores `=== e !==` que verificam os `valores e também o tipo`.
+
+<br>
