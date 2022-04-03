@@ -263,3 +263,15 @@ Além da interpolação de expressões, também é possível declarar uma String
 - trim: elimina espaços em branco no início e no fim;
 - trimStart: elimina espaços em branco no início;
 - trimEnd: elimina espaços em branco no fim.
+
+<br>
+
+## Boolean
+
+O tipo Boolean é primitivo, imutável e representado pelas palavras reservadas `true ou false`.
+
+A coerção de tipo acontece quando um tipo de dado é utilizado em um contexto onde ele é `convertido de forma implícita ou explícita`.
+
+<br>
+
+### Operadores Booleanos
