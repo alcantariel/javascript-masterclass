@@ -18,3 +18,4 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
     - [String API](./02_tipos_de_dados/README.md#string-api)
   - [Boolean](./02_tipos_de_dados/README.md#boolean)
     - [Operadores Booleanos](./02_tipos_de_dados/README.md#operadores-booleanos)
+  - [Symbol](./02_tipos_de_dados/README.md#symbol)
