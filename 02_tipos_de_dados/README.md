@@ -293,3 +293,37 @@ Prefira sempre a utilização dos operadores `=== e !==` que verificam os `valor
 O tipo Symbol é primitivo, único e imutável, atuando como uma `chave única em um objeto`.
 
 Além disso, é utilizado em operações realizadas pelo interpretador, como no comando `for/of` ou em operações da String API como `match, split, replace e muitas outras`.
+
+<br>
+
+## RegExp
+
+As expressões regulares são estruturas formadas por uma `sequência de caracteres que especificam um padrão formal`, que servem para validar, extrair ou substituir caracteres dentro de uma String.
+
+<br>
+
+### Metacaracteres
+
+<br>
+
+| Metacaractere | Descrição                             |
+| ------------- | ------------------------------------- |
+| .             | Representa qualquer caractere         |
+| \             | Escapa caracteres especiais           |
+| ^             | Inicia com um determinado caractere   |
+| $             | Finaliza com um determinado caractere |
+
+<br>
+
+### Grupos de caracteres
+
+<br>
+
+| Grupo  | Descrição                                                          |
+| ------ | ------------------------------------------------------------------ |
+| [abc]  | Aceita qualquer caractere dentro do grupo, nesse caso a, b e c     |
+| [^abc] | Não aceita qualquer caractere dentro do grupo, nesse caso a, b e c |
+| [0-9]  | Aceita qualquer caractere entre 0 e 9                              |
+| [^0-9] | Não aceita qualquer caractere entre 0 e 9                          |
+
+<br>
