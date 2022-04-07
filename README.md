@@ -22,3 +22,6 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
   - [RegExp](./02_tipos_de_dados/README.md#regexp)
     - [Metacaracteres](./02_tipos_de_dados/README.md#metacaracteres)
     - [Grupos de Caracteres](./02_tipos_de_dados/README.md#grupos-de-caracteres)
+    - [Quantificadores](./02_tipos_de_dados/README.md#quantificadores)
+    - [Conjuntos de Metacaracteres](./02_tipos_de_dados/README.md#conjuntos-de-metacaracteres)
+    - [Grupos de Captura](./02_tipos_de_dados/README.md#grupos-de-captura)

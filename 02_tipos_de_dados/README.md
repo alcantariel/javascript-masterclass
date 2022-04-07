@@ -315,7 +315,7 @@ As expressões regulares são estruturas formadas por uma `sequência de caracte
 
 <br>
 
-### Grupos de caracteres
+### Grupos de Caracteres
 
 <br>
 
@@ -325,5 +325,51 @@ As expressões regulares são estruturas formadas por uma `sequência de caracte
 | [^abc] | Não aceita qualquer caractere dentro do grupo, nesse caso a, b e c |
 | [0-9]  | Aceita qualquer caractere entre 0 e 9                              |
 | [^0-9] | Não aceita qualquer caractere entre 0 e 9                          |
+| [a-z]  | Aceita qualquer caractere de a à z                                 |
+| [A-Z]  | Aceita qualquer caractere de A à Z                                 |
+
+<br>
+
+### Quantificadores
+
+Os quantificadores podem ser aplicados a caracteres, grupos, conjuntos ou metacaracteres.
+
+<br>
+
+| Quantificador | Descrição                               |
+| ------------- | --------------------------------------- |
+| {n}           | Quantifica um número específico         |
+| {n,}          | Quantifica um número mínimo             |
+| {n,m}         | Quantifica um número mínimo e um máximo |
+| ?             | Zero ou um                              |
+| \*            | Zero ou mais                            |
+| +             | Um ou mais                              |
+
+<br>
+
+### Conjuntos de Metacaracteres
+
+<br>
+
+| Conjunto | Representação                      |
+| -------- | ---------------------------------- |
+| \w       | Representa o conjunto [a-zA-Z0-9]  |
+| \W       | Representa o conjunto [^a-za-z0-9] |
+| \d       | Representa o conjunto [0-9]        |
+| \D       | Representa o conjunto [^0-9]       |
+| \s       | Representa um espaço em branco     |
+| \S       | Representa um não espaço em branco |
+| \n       | Representa uma quebra de linha     |
+| \t       | Representa um tab                  |
+
+<br>
+
+### Grupos de Captura
+
+<br>
+
+| Grupo | Descrição                                                                                   |
+| ----- | ------------------------------------------------------------------------------------------- |
+| ()    | Determina um grupo de captura para realizar a extração de valores de uma determinada String |
 
 <br>
