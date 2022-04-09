@@ -30,3 +30,4 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
     - [undefined e null](./03_objetos_e_funcoes/README.md#undefined-e-null)
     - [Comparação de Objetos](./03_objetos_e_funcoes/README.md#comparação-de-objetos)
     - [Herança](./03_objetos_e_funcoes/README.md#herança)
+    - [Object API](./03_objetos_e_funcoes/README.md#object-api)

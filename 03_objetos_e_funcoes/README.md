@@ -90,3 +90,7 @@ Com o método `Object.create` é possível c riar um objeto passando o seu prot�
 `Sem o seu protótipo`, o objeto `perde algumas operações importantes`.
 
 Caso a mesma propriedade exista no objeto e no seu protótipo, `a propriedade do próprio objeto é retornada, fazendo sombra (shadowing) à propriedade do protótipo`. A propriedade mais específica sempre é retornada.
+
+<br>
+
+### Object API
