@@ -25,3 +25,4 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
     - [Quantificadores](./02_tipos_de_dados/README.md#quantificadores)
     - [Conjuntos de Metacaracteres](./02_tipos_de_dados/README.md#conjuntos-de-metacaracteres)
     - [Grupos de Captura](./02_tipos_de_dados/README.md#grupos-de-captura)
+- [Objetos e Funções](./03_objetos_e_funcoes/README.md#objetos-e-funções)
