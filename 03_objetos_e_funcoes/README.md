@@ -94,3 +94,27 @@ Caso a mesma propriedade exista no objeto e no seu protótipo, `a propriedade do
 <br>
 
 ### Object API
+
+- assign: faz a cópia das propriedades dos objetos passados por parâmetro para o objeto alvo, que é retornado;
+- keys: retorna as chaves das propriedades do objeto;
+- values: retorna os valores das propriedades do objeto;
+- entries: retorna as propriedades do objeto em pares de chave e valor;
+- is: compara dois objetos, considerando os tipos de dados, de forma similar ao operador ===;
+- defineProperty:
+  - configurable: permite que uma determinada propriedade seja apagada;
+  - enumerable: permite q ue uma determinada propriedade seja enumerada;
+  - value: define o valor de uma determinada propriedade;
+  - writable: permite que uma determinada propriedade tenha seu valor modificado.
+- preventExtensions: impede que o objeto tenha novas propriedades, mas permite modificar ou remover as existentes;
+- seal: impede que o objeto tenha novas propriedades ou apague as existentes, mas permite modificar as existentes;
+- freeze: impede que o objeto tenha novas propriedades, apague ou modifique as existentes.
+
+| Fn                       | Create | Read | Update | Delete |
+| ------------------------ | ------ | ---- | ------ | ------ |
+| Object.preventExtensions | no     | yes  | yes    | yes    |
+| Object.seal              | no     | yes  | yes    | no     |
+| Object.freeze            | no     | yes  | no     | no     |
+
+`Não é possível alterar o protótipo do objeto, ele se torna imutável.`
+
+<br>
