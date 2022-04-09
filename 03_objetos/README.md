@@ -1,6 +1,4 @@
-# Objetos e Funções
-
-## Objetos
+# Objetos
 
 Um objeto é uma `coleção dinâmica de propriedades` definidas por `chaves`, que podem ser do tipo String ou Symbol, e `valores` que podem ser de qualquer tipo de dado.
 
@@ -44,7 +42,7 @@ Cada uma das propriedades de um objeto podem ser consultadas por meio da sua ref
 
 <br>
 
-### undefined e null
+## undefined e null
 
 O tipo `undefined` é retornado caso a `chave não seja encontrada`.
 
@@ -63,7 +61,7 @@ As propriedades de um objeto podem ser apagadas por meio do operador `delete`.
 
 <br>
 
-### Comparação de Objetos
+## Comparação de Objetos
 
 A comparação dos objetos é feita por meio da sua `referência`, assim, `ainda que dois objetos tenham exatamente as mesmas propriedades eles serão considerados diferentes`.
 
@@ -71,7 +69,7 @@ Uma das formas para comparar os objetos é `analisando cada uma das suas proprie
 
 Para garantir que um objeto é igual ao outro é `necessário verificar seus protótipos`.
 
-### Herança
+## Herança
 
 O principal objetivo da herança é `permitir o reuso de código por meio de compartilhamento de propriedades entre objetos, evitando a duplicação`.
 
@@ -93,7 +91,7 @@ Caso a mesma propriedade exista no objeto e no seu protótipo, `a propriedade do
 
 <br>
 
-### Object API
+## Object API
 
 - assign: faz a cópia das propriedades dos objetos passados por parâmetro para o objeto alvo, que é retornado;
 - keys: retorna as chaves das propriedades do objeto;
@@ -118,3 +116,5 @@ Caso a mesma propriedade exista no objeto e no seu protótipo, `a propriedade do
 `Não é possível alterar o protótipo do objeto, ele se torna imutável.`
 
 <br>
+
+## JSON
