@@ -57,9 +57,6 @@ Percorra as colunas com for/of e utilize a notação de [] tanto para criar e ac
 ## Conteúdo abordado neste exercício
 
 - Object
-
 - for/of
-
 - String.prototype.trim
-
 - JSON.stringify
