@@ -31,3 +31,15 @@ As funções do tipo `getter` e `setter` servem para interceptar o acesso as pro
 `Utilize chaves diferentes para a função setter e a propriedade do objeto.`
 
 Por meio da operação `defineProperty` da Object API, também é possível `definir funções do tipo getter e setter`. E também é necessário utilizar chaves diferentes para a função setter e a propriedade do objeto.
+
+<br>
+
+## call, apply e bind
+
+Por meio das operações `call` e `apply` é possível invocar uma função `passando o this por parâmetro`.
+
+Qual é a diferença entre `call` e `apply`?
+
+- Apenas forma de passar os outros parâmetros. O call aceita um ou mais parâmetros, enquanto o apply aceita um conjunto de parâmetros.
+
+A operação `bind` permite `encapsular o this dentro da função`, retornando-a.
