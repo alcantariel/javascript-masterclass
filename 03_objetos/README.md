@@ -20,7 +20,7 @@ Um objeto é uma `coleção dinâmica de propriedades` definidas por `chaves`, q
 
 <br>
 
-Obs: existe `diferença` entre as três formas?
+Existe `diferença` entre as três formas?
 
 - Não há diferença no resultado, mas todas elas possuem objetivos específicos.
 
@@ -69,6 +69,8 @@ Uma das formas para comparar os objetos é `analisando cada uma das suas proprie
 
 Para garantir que um objeto é igual ao outro é `necessário verificar seus protótipos`.
 
+<br>
+
 ## Herança
 
 O principal objetivo da herança é `permitir o reuso de código por meio de compartilhamento de propriedades entre objetos, evitando a duplicação`.
@@ -98,9 +100,9 @@ Caso a mesma propriedade exista no objeto e no seu protótipo, `a propriedade do
 - values: retorna os valores das propriedades do objeto;
 - entries: retorna as propriedades do objeto em pares de chave e valor;
 - is: compara dois objetos, considerando os tipos de dados, de forma similar ao operador ===;
-- defineProperty:
+- defineProperty: adiciona chaves e valores nas propriedades do objeto alvo com algumas configurações
   - configurable: permite que uma determinada propriedade seja apagada;
-  - enumerable: permite q ue uma determinada propriedade seja enumerada;
+  - enumerable: permite que uma determinada propriedade seja enumerada;
   - value: define o valor de uma determinada propriedade;
   - writable: permite que uma determinada propriedade tenha seu valor modificado.
 - preventExtensions: impede que o objeto tenha novas propriedades, mas permite modificar ou remover as existentes;
@@ -118,3 +120,26 @@ Caso a mesma propriedade exista no objeto e no seu protótipo, `a propriedade do
 <br>
 
 ## JSON
+
+JSON ou JavaScript Object Notation, `é um formato de intercâmbio/transferência de dados` derivado da linguagem JavaScript que foi descoberto por `Douglas Crockford` e padronizado pela `ECMA-404`.
+
+O JSON é utilizado para troca/transferência de dados entre sistemas.
+
+Os tipos de dados suportados pelo JSON:
+
+| Tipos de Dados |
+| -------------- |
+| Number         |
+| String         |
+| Boolean        |
+| Object         |
+| Array          |
+| null           |
+
+<br>
+
+O método `JSON.stringify` converte um determinado tipo de dado para JSON.
+
+O método `JSON.parse` converte um JSON para um determinado tipo de dado.
+
+`JSON e Object são dois conceitos completamente diferentes.`
