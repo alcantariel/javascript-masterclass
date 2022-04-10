@@ -15,3 +15,9 @@ Podemos definir `valores padrão` para cada um dos parâmetros de uma função. 
 Por meio da variável implícita `arguments` é possível acessar os parâmetros da função invocada.
 
 Também é possível acessar os parâmetros da função invocada por meio do `rest parameter`. Porém, o rest parameter deve ser sempre o `último` da lista de parâmetros.
+
+<br>
+
+## this
+
+Existe uma variável implícita chamada de `this` que `faz referência para o objeto responsável pela sua invocação`.

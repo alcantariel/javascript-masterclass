@@ -32,3 +32,4 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
   - [Object API](./03_objetos/README.md#object-api)
   - [JSON](./03_objetos/README.md#json)
 - [Funções](./04_funcoes/README.md#funções)
+  - [this](./04_funcoes/README.md#this)
