@@ -21,3 +21,13 @@ Também é possível acessar os parâmetros da função invocada por meio do `re
 ## this
 
 Existe uma variável implícita chamada de `this` que `faz referência para o objeto responsável pela sua invocação`.
+
+<br>
+
+## getter e setter
+
+As funções do tipo `getter` e `setter` servem para interceptar o acesso as propriedades de um determinado objeto.
+
+`Utilize chaves diferentes para a função setter e a propriedade do objeto.`
+
+Por meio da operação `defineProperty` da Object API, também é possível `definir funções do tipo getter e setter`. E também é necessário utilizar chaves diferentes para a função setter e a propriedade do objeto.

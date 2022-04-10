@@ -1,4 +1,4 @@
-// this
+// this - method notation
 
 const rectangle = {
   x: 10,
