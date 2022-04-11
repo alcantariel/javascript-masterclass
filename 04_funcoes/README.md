@@ -43,3 +43,39 @@ Qual é a diferença entre `call` e `apply`?
 - Apenas forma de passar os outros parâmetros. O call aceita um ou mais parâmetros, enquanto o apply aceita um conjunto de parâmetros.
 
 A operação `bind` permite `encapsular o this dentro da função`, retornando-a.
+
+<br>
+
+## new
+
+Permite criar objetos por meio de `funções construtoras` quanto das `classes`.
+
+Como fazer para criar um objeto `a partir da mesma estrutura`?
+
+<br>
+
+### Função Fábrica
+
+A `função fábrica`, que é um tipo de padrão, `retorna um novo objeto após ser invocada diretamente`. Geralmente o nome da função começa com `create` ou com algum outro verbo que remete à ideia de `criação, fabricaç˜ão`.
+
+O que fazer para eliminar a duplicação e reusar propriedades entre os objetos?
+
+- Abstraindo as propriedades em comum para um `objeto que será protótipo e passando este protótipo para o objeto criado por meio da função Object.setPrototypeOf`.
+
+<br>
+
+### Função Construtora
+
+A `função construtora retorna um novo objeto ao ser invocada por meio do operador new`. Geralmente o nome da função começa com `letra maiúscula` para lembrar da utilização do operador `new`. O operador `new` faz com que este objeto associe as propriedades ao `this`.
+
+Toda função `tem uma propriedade chamada prototype`, que é vinculada ao `__proto__` do objeto criado pelo operador `new`.
+
+- \_\_proto\_\_ é a cadeia de protótipos que o objeto está herdando.
+
+- prototype é um objeto que só as funções possuem e apenas as construtoras "aproveitam/utilizam".
+
+<br>
+
+`Não esqueça de utilizar o operador new ao utilizar funções construtoras.`
+
+<br>

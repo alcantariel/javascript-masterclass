@@ -35,3 +35,6 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
   - [this](./04_funcoes/README.md#this)
   - [getter e setter](./04_funcoes/README.md#getter-e-setter)
   - [call, apply e bind](./04_funcoes/README.md#call-apply-e-bind)
+  - [new](./04_funcoes/README.md#new)
+    - [Função Fábrica](./04_funcoes/README.md#função-fábrica)
+    - [Função Construtora](./04_funcoes/README.md#função-construtora)
