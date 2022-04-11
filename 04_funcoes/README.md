@@ -89,3 +89,17 @@ Qual é a diferença entre o `instanceof` e o `typeof`?
 - instanceof verifica o tipo da instância do objeto, a partir de qual função construtora que o mesmo foi criado.
 
 - typeof verifica o tipo de dado do objeto, são eles: number, string, boolean, symbol, object e undefined.
+
+<br>
+
+## Arrow Function
+
+As `arrow functions` tem uma abordagem mais simples e direta para escrever uma função e `podem melhorar a legibilidade do código em diversas situações`.
+
+A arrow function possui um retorno implícito quando não possui um bloco de código para executar.
+
+Se a arrow function possui dois parâmetro ou mais, o parênteses se torna obrigatório.
+
+As arrow functions não possuem as suas próprias variáveis `this` e `arguments`.
+
+<br>
