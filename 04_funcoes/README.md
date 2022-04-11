@@ -79,3 +79,13 @@ Toda função `tem uma propriedade chamada prototype`, que é vinculada ao `__pr
 `Não esqueça de utilizar o operador new ao utilizar funções construtoras.`
 
 <br>
+
+## instanceof
+
+Com o operador `instanceof` é possível verificar se um objeto foi criado por meio de uma determinada `função construtora`, `analisando a sua cadeia de protótipos`.
+
+Qual é a diferença entre o `instanceof` e o `typeof`?
+
+- instanceof verifica o tipo da instância do objeto, a partir de qual função construtora que o mesmo foi criado.
+
+- typeof verifica o tipo de dado do objeto, são eles: number, string, boolean, symbol, object e undefined.
