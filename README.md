@@ -40,3 +40,4 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
     - [Função Construtora](./04_funcoes/README.md#função-construtora)
   - [instanceof](./04_funcoes/README.md#instanceof)
   - [Arrow Function](./04_funcoes/README.md#arrow-function)
+  - [Execution Context](./04_funcoes/README.md#arrow-function)

@@ -103,3 +103,25 @@ Se a arrow function possui dois parâmetro ou mais, o parênteses se torna obrig
 As arrow functions não possuem as suas próprias variáveis `this` e `arguments`.
 
 <br>
+
+## Execution Context
+
+O `Execution Context` é o `ambiente onde o código é executado`, sendo composto pelo `variable object, scope chain` e `this`.
+
+| Execution Context Stack  |
+| ------------------------ |
+| Active Execution Context |
+| ...                      |
+| Execution Context 2      |
+| Execution Context 1      |
+| Global Execution Context |
+
+<br>
+
+Dentro de uma função `é possível acessar variáveis existentes fora dela, por meio da scope chain`.
+
+Não é possível acessar de fora, uma variável que foi `declarada dentro de uma função`.
+
+`Toda função tem uma variável this` que contém a referência para o `objeto responsável pela sua invocação`.
+
+<br>
