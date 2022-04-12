@@ -137,3 +137,11 @@ Resumindo, closure é uma função com um `scope chain estático` que é `defini
 Apesar de ser estático, o scope chain faz referência para objetos que estão na memória e `podem ser compartilhados por mais de uma função`.
 
 <br>
+
+## Tratamento de Exceções
+
+Na linguagem JavaScript, `qualquer tipo de dado pode ser lançado como um erro, interrompendo o fluxo de execução`.
+
+Essas exceções podem ser capturadas e tratadas utilizando `try/catch`.
+
+<br>

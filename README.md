@@ -42,3 +42,4 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
   - [Arrow Function](./04_funcoes/README.md#arrow-function)
   - [Execution Context](./04_funcoes/README.md#arrow-function)
     - [Closures](./04_funcoes/README.md#closures)
+  - [Tratamento de Exceções](./04_funcoes/README.md#tratamento-de-exceções)
