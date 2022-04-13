@@ -143,3 +143,19 @@ O método `JSON.stringify` converte um determinado tipo de dado para JSON.
 O método `JSON.parse` converte um JSON para um determinado tipo de dado.
 
 `JSON e Object são dois conceitos completamente diferentes.`
+
+<br>
+
+## Destructuring
+
+Por meio do `destructuring` é possível `extrair valores de arrays e objetos de uma forma mais simples e direta`.
+
+É possível `extrair valores de um array` criando variáveis em ordem, de acordo com a `posição de cada elemento`.
+
+Assim como nas funções, é possível definir `valores padrão` para cada uma das variáveis.
+
+Para extrair os valroes de um objeto é necessário `referenciar a chave de cada uma das propriedades`. Também é possível definir `nomes diferentes para as variáveis` em relação as `chaves das propriedades do objeto`.
+
+É possível referencias as propriedades de `objetos que estão dentro de outros objetos`.
+
+Também é possível aplicar destructuring nos `parâmetros de uma função`, tanto com `arrays quanto com objetos`.

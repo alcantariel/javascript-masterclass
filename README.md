@@ -31,6 +31,7 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
   - [Herança](./03_objetos/README.md#herança)
   - [Object API](./03_objetos/README.md#object-api)
   - [JSON](./03_objetos/README.md#json)
+  - [Destructuring](./04_funcoes/README.md#destructuring)
 - [Funções](./04_funcoes/README.md#funções)
   - [this](./04_funcoes/README.md#this)
   - [getter e setter](./04_funcoes/README.md#getter-e-setter)
