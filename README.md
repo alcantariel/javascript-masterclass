@@ -46,3 +46,4 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
   - [Tratamento de Exceções](./04_funcoes/README.md#tratamento-de-exceções)
 - [Array](./05_array/README.md#array)
   - [Mutator API](./05_array/README.md#mutator-api)
+  - [Iteration API](./05_array/README.md#iteration-api)
