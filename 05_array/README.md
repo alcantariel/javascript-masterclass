@@ -68,7 +68,7 @@ Um `Map` é um objeto que armazena um conjunto de `chaves` e `valores` que podem
 
 <br>
 
-### Weak Map
+### WeakMap
 
 Um `WeakMap` é um objeto similar ao Map, que `permite apenas chaves do tipo Object`, e `mantém as referências de forma fraca`, sendo `volátil e não iterável`.
 
@@ -85,5 +85,34 @@ Para que serve um `WeakMap`?
 
 Poder implementar uma coleção com referência fraca, para não ter preocupação de remover os elementos desta. E conforme os objetos vão perdendo a referência, naturalmente eles vão sendo coletados, sem se preocupar com vazamentos de memória.
 [Discussão WeakMap](https://gist.github.com/rwaldron/963596)
+
+<br>
+
+## Set
+
+Um `Set` é um objeto que armazena `elementos únicos`, que podem ser de qualquer tipo de dado. E a diferença de um `Set` para um `Array` é `não permitir elementos duplicados`.
+
+- size: retorna a quantidade de elementos;
+- add: adiciona um elemento;
+- forEach: itera sobre o set;
+- has: retorna true se o elemento existir;
+- delete: remove um elemento;
+- clear: remove todos os elementos.
+
+<br>
+
+### WeakSet
+
+Um `WeakSet` é um objeto similar ao Set, que `permite apenas valores do tipo Object` e `mantém as referências de forma fraca`, sendo `volátil` e `não iterável`.
+
+- add: adiciona um elemento;
+- has: retorna true se o elemento existir;
+- delete: remove um elemento.
+
+Não existe `forEach, size e clear` pois não é garantido que os elementos estarão dentro dele no momento de executar a operação.
+
+Para que serve um `WeakSet`?
+
+Serve para criar coleções sem preocupações com memory leak. E conforme os objetos desta coleção vão perdendo a referência, naturalmente eles vão sendo coletados pelo garbage collector.
 
 <br>

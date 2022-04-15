@@ -1,0 +1,5 @@
+// Set - set para array
+
+const charsets = new Set(["ASCII", "ISO-8859-1", "UTF-8"]);
+console.log(charsets); // Set(3) { 'ASCII', 'ISO-8859-1', 'UTF-8' }
+console.log(Array.from(charsets)); // [ 'ASCII', 'ISO-8859-1', 'UTF-8' ]
