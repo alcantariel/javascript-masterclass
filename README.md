@@ -48,3 +48,5 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
   - [Mutator API](./05_array/README.md#mutator-api)
   - [Iteration API](./05_array/README.md#iteration-api)
   - [Accessor API](./05_array/README.md#accessor-api)
+  - [Map](./05_array/README.md#map)
+    - [Weak Map](./05_array/README.md#weak-map)

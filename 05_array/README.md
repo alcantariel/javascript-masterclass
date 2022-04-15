@@ -53,3 +53,37 @@ Os `accessor methods` quando invocados `retornam informações específicas sobr
 - join: converte o array para uma String, juntando os elementos com base em um separador.
 
 <br>
+
+## Map
+
+Um `Map` é um objeto que armazena um conjunto de `chaves` e `valores` que podem ser de `qualquer tipo de dado`. E esta é a grande diferença para o `Object`, que armazena apenas chave do tipo `String` ou `Symbol`.
+
+- size: retorna a quantidade de elementos;
+- set: adiciona um par de chave e valor;
+- forEach: itera sobre o mapa;
+- has: retorna true se a chave existir;
+- get: retorna o valor de uma determinada chave;
+- delete: remove um par de chave e valor;
+- clear: remove todos os elementos.
+
+<br>
+
+### Weak Map
+
+Um `WeakMap` é um objeto similar ao Map, que `permite apenas chaves do tipo Object`, e `mantém as referências de forma fraca`, sendo `volátil e não iterável`.
+
+- set: adiciona um par de chave e valor;
+- has: retorna true se a chave existir;
+- get: retorna o valor de uma determinada chave;
+- delete: remove um par de chave e valor.
+
+Não existe `forEach, size e clear` pois não é garantido que os elementos estarão dentro dele no momento de executar a operação.
+
+Sem a `referência para a chave` não é possível acessar o valor.
+
+Para que serve um `WeakMap`?
+
+Poder implementar uma coleção com referência fraca, para não ter preocupação de remover os elementos desta. E conforme os objetos vão perdendo a referência, naturalmente eles vão sendo coletados, sem se preocupar com vazamentos de memória.
+[Discussão WeakMap](https://gist.github.com/rwaldron/963596)
+
+<br>
