@@ -11,5 +11,3 @@ Também é possível utilizar o bloco `for-await-of` para iterar sobre um iterat
 <br>
 
 `DEPENDENDO DA VERSÃO DO NODE, É NECESSÁRIO UTILIZAR A FLAG --harmony-async-iteration PARA A FUNCIONALIDADE for-await-of.`
-
-<br>
