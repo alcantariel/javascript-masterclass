@@ -57,3 +57,4 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
   - [Proxy e Reflect](./06_classes/README.md#proxy-e-reflect)
 - [Modules](./07_modules/README.md#modules)
 - [Promises](./08_promises/README.md#promises)
+- [Generators](./09_generators/README.md#generators)
