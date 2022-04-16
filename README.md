@@ -55,3 +55,4 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
   - [Iterables e Iterators](./05_array/README.md#iterables-e-iterators)
 - [Classes e Módulos](./06_classes_e_modulos/README.md#classes-e-módulos)
   - [Classes](./06_classes_e_modulos/README.md#classes)
+  - [Proxy e Reflect](./06_classes_e_modulos/README.md#proxy-e-reflect)
