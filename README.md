@@ -58,3 +58,4 @@ Os tópicos do curso são separados em pastas, cada uma possui um `README`, que 
 - [Modules](./07_modules/README.md#modules)
 - [Promises](./08_promises/README.md#promises)
 - [Generators](./09_generators/README.md#generators)
+- [Async/Await](./10_async_await/README.md#asyncawait)
