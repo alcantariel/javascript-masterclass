@@ -8,9 +8,7 @@ A palavra chave `import`, `faz a importaç˜ão de qualquer tipo de dado exporta
 
 <br>
 
-`PARA UTILIZAR MODULES NO NODE.JS, OS ARQUIVOS DEVEM TER A EXTENSÃO .mjs, ALÉM DE TER QUE EXECUTAR COM A FLAG --experimental-modules`.
-
-Exemplo: `node index.mjs --experimental-modules`
+`DEPENDENDO DA VERSÃO DO NODE, PARA UTILIZAR MODULES NO NODE.JS, OS ARQUIVOS DEVEM TER A EXTENSÃO .mjs, ALÉM DE TER QUE EXECUTAR COM A FLAG --experimental-modules.`
 
 <br>
 
