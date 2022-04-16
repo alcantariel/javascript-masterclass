@@ -1,6 +1,6 @@
 // Modules - alias
 
-import { PI as pi, pow } from "./25_modules_1_math.mjs";
+import { PI as pi, pow } from "./math.mjs";
 
 class Circle {
   constructor(radius) {

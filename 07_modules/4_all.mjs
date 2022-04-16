@@ -1,6 +1,6 @@
 // Modules - *
 
-import * as math from "./25_modules_1_math.mjs";
+import * as math from "./math.mjs";
 
 class Circle {
   constructor(radius) {
